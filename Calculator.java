@@ -1,7 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-
 public class Calculator implements ActionListener{
 
 	JFrame frame;
@@ -18,7 +17,7 @@ public class Calculator implements ActionListener{
 	char operator;
 	
 	Calculator(){
-		
+	
 		frame = new JFrame("Calculator");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(420, 550);
