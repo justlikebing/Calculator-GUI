@@ -46,7 +46,6 @@ public class Calculator implements ActionListener{
 		functionButtons[6] = delButton;
 		functionButtons[7] = clrButton;
 		functionButtons[8] = negButton;
-		
 		for(int i =0;i<9;i++) {
 			functionButtons[i].addActionListener(this);
 			functionButtons[i].setFont(myFont);
