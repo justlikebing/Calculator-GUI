@@ -36,6 +36,7 @@ public class Calculator implements ActionListener{
 		delButton = new JButton("Del");
 		clrButton = new JButton("Clr");
 		negButton = new JButton("(-)");
+
 		
 		functionButtons[0] = addButton;
 		functionButtons[1] = subButton;
@@ -53,10 +54,12 @@ public class Calculator implements ActionListener{
 		}
 		
 		for(int i =0;i<10;i++) {
+			
 			numberButtons[i] = new JButton(String.valueOf(i));
 			numberButtons[i].addActionListener(this);
 			numberButtons[i].setFont(myFont);
 			numberButtons[i].setFocusable(false);
+			
 		}
 		
 		negButton.setBounds(50,430,100,50);
