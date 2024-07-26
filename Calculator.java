@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+
 public class Calculator implements ActionListener{
 	JFrame frame;
 	JTextField textfield;
@@ -66,8 +67,7 @@ public class Calculator implements ActionListener{
 			numberButtons[i] = new JButton(String.valueOf(i));
 			numberButtons[i].addActionListener(this);
 			numberButtons[i].setFont(myFont);
-			numberButtons[i].setFocusable(false);
-			
+			numberButtons[i].setFocusable(false);	
 		}
 		
 		negButton.setBounds(50,430,100,50);
